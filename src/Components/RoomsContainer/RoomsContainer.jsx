@@ -23,8 +23,6 @@ function RoomContainer({ context }) {
 
 export default withRoomConsumer(RoomContainer);
 
-// import React from "react";
-
 // // import context
 // import { RoomConsumer } from "../../Context/Context";
 

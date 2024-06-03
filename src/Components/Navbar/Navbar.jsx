@@ -4,13 +4,15 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 // import assets
-import Logo from "../../assets/img/svg/logo.svg";
+import Logo from "../../assets/img/svg/logo.jpg";
 import { FaAlignRight } from "react-icons/fa";
+//import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 export default class Navbar extends Component {
   state = {
     isOpen: false,
   };
+
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };
@@ -22,7 +24,7 @@ export default class Navbar extends Component {
           <div className="nav-header">
             {/* app logo */}
             <Link to="/">
-              <img src={Logo} alt="Hotel Resort" />
+              <img src={Logo} alt="LOGO" />
             </Link>
 
             {/* navbar toggle button */}
@@ -44,6 +46,12 @@ export default class Navbar extends Component {
             <li>
               <Link to="/rooms">Rooms</Link>
             </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+            {/* <li>
+              <Link to="/admin">Admin</Link>
+            </li> */}
           </ul>
         </div>
       </nav>

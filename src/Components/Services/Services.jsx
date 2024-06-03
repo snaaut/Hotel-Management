@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // imports react-icons
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { FaCocktail, FaShuttleVan, FaBeer, FaSwimmer } from "react-icons/fa";
 
 // imports components
 import Title from "../Title/Title";
@@ -12,26 +12,22 @@ export default class Services extends Component {
       {
         icon: <FaCocktail />,
         title: "free cocktails",
-        info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
+        info: "Unwind with complimentary cocktails at our hotel. Cheers to a memorable stay!",
       },
       {
-        icon: <FaHiking />,
-        title: "endless hiking",
-        info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
+        icon: <FaSwimmer />,
+        title: "Swimming",
+        info: "Dive into relaxation at our hotel's poolside oasis. Enjoy a refreshing escape and unwind in style.",
       },
       {
         icon: <FaShuttleVan />,
-        title: "free shuttle",
-        info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
+        title: "free shuttle ",
+        info: "Our hotel offers a free shuttle to transport guests to the airport and nearby locations. The shuttle runs every 30 minutes during peak hours.",
       },
       {
         icon: <FaBeer />,
         title: "storages beer",
-        info:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.",
+        info: "We offer a secure, climate-controlled storage area to keep your beer cold and fresh during your stay.",
       },
     ],
   };

@@ -18,7 +18,6 @@ function Room() {
           </Link>
         </Banner>
       </Hero>
-
       <RoomContainer />
     </>
   );
